@@ -4,20 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="50sp"
-        android:layout_centerInParent="true"/>  
+        android:layout_centerInParent="true"/>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bottom_navbar"
-        app:itemBackground="@color/colorWhite"
-        app:itemTextColor="@drawable/selector"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        app:itemBackground="@color/colorAccent"
+        app:itemIconSize="35dp"
         app:itemIconTint="@drawable/selector"
-        app:menu="@menu/menu_nav"/>
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_nav"
+        />
 </RelativeLayout>
