@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon=""/>
+    <item
+        android:id="@+id/nav_dafpeker"
+        android:title="daftar_pekerjaan"
+        android:icon=""/>
+    <item
+        android:id="@+id/nav_petunjuk"
+        android:title="petunjuk"
+        android:icon=""/>
+    <item
+        android:id="@+id/nav_profil"
+        android:title="profil"
+        android:icon=""/>
+    <item
+        android:id="@+id/nav_kontak"
+        android:title="kontak"
+        android:icon=""/>
+</menu>
