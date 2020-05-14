@@ -5,24 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/tampilan_contact_jadi">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Kontak"
-        android:textSize="50sp" />
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp"
         android:background="@drawable/shape"
-        app:itemIconSize="35dp"
+        android:layout_marginBottom="-15dp"
+        app:itemIconSize="30dp"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/menu_nav" />
 </RelativeLayout>
