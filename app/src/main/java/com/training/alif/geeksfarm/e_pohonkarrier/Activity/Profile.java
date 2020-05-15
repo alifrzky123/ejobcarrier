@@ -20,7 +20,7 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbarpro);
         bottomNavigationView.setSelectedItemId(R.id.nav_profil);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

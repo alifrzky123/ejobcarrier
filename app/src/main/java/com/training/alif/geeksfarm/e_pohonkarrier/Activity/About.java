@@ -16,7 +16,7 @@ public class About extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbarabout);
         bottomNavigationView.setSelectedItemId(R.id.nav_about);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

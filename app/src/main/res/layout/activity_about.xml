@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity"
-    android:background="@drawable/bg_ttg_app">
+    android:background="@drawable/bg_ttg_appmin">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,13 +15,13 @@
         android:layout_centerInParent="true"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navbar"
+        android:id="@+id/bottom_navbarabout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="-15dp"
+        android:layout_marginBottom="-5dp"
         android:background="@drawable/shape"
-        app:itemIconSize="35dp"
+        app:itemIconSize="25dp"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_nav" />

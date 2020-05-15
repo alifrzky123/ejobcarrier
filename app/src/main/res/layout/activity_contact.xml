@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity"
-    android:background="@drawable/tampilan_contact_jadi">
+    android:background="@drawable/kontakcobsmin">
 
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navbar"
+        android:id="@+id/bottom_navbarcont"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@drawable/shape"
-        android:layout_marginBottom="-15dp"
-        app:itemIconSize="30dp"
+        android:layout_marginBottom="-5dp"
+        app:itemIconSize="25dp"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -3,23 +3,23 @@
 
     <item
         android:id="@+id/nav_home"
-        android:title=""
-        android:icon="@drawable/ic_home_green"/>
+        android:title="Home"
+        android:icon="@drawable/home"/>
     <item
         android:id="@+id/nav_dafpeker"
-        android:title=""
-        android:icon="@drawable/ic_daftar_pekerjaan_green"/>
+        android:title="D. Pekerjaan"
+        android:icon="@drawable/daftar_pekerjaan"/>
     <item
         android:id="@+id/nav_about"
-        android:title=""
-        android:icon="@drawable/ic_tentang_aplikasigreen"/>
+        android:title="Tentang"
+        android:icon="@drawable/tentang_aplikasi"/>
     <item
         android:id="@+id/nav_profil"
-        android:title=""
-        android:icon="@drawable/ic_profil_green"/>
+        android:title="Profil"
+        android:icon="@drawable/profil"/>
     <item
         android:id="@+id/nav_kontak"
-        android:title=""
-        android:icon="@drawable/ic_contact_green"/>
+        android:title="Kontak"
+        android:icon="@drawable/contact"/>
 
 </menu>

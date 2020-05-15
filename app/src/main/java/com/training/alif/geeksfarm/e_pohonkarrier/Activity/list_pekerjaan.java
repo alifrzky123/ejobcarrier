@@ -16,7 +16,7 @@ public class list_pekerjaan extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_pekerjaan);
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbarlist);
         bottomNavigationView.setSelectedItemId(R.id.nav_dafpeker);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

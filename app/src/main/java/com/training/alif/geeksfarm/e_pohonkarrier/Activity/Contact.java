@@ -16,7 +16,7 @@ public class Contact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbar);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navbarcont);
         bottomNavigationView.setSelectedItemId(R.id.nav_kontak);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
