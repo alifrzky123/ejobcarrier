@@ -6,14 +6,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity"
-    android:background="@drawable/cobssmin">
+    android:background="@drawable/home_bg">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="50sp"
-        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btn_ptnjk_app"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_above="@+id/bottom_navbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/shape_for_button"
+        android:fontFamily="@font/bahnschrift_1"
+        android:text="PETUNJUK APLIKASI"
+        android:textColor="@color/colorWhite"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_informasi_pek"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_above="@+id/bottom_navbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/shape_for_button"
+        android:fontFamily="@font/bahnschrift_1"
+        android:text="DAFTAR PEKERJAAN"
+        android:textColor="@color/colorWhite"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btn_plan_carrier"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_above="@+id/bottom_navbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/shape_for_button"
+        android:fontFamily="@font/bahnschrift_1"
+        android:text="RENCANA KARRIER ANDA"
+        android:textColor="@color/colorWhite"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btn_sumber"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_above="@+id/bottom_navbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/shape_for_button"
+        android:fontFamily="@font/bahnschrift_1"
+        android:text="SUMBER-SUMBER"
+        android:textColor="@color/colorWhite"
+        android:textSize="13sp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navbar"

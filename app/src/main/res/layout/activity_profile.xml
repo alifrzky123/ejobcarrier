@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity"
-    android:background="@drawable/bg_profil_cobamin">
+    android:background="@drawable/profil_bg">
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
