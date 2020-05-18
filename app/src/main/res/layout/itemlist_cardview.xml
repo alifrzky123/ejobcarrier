@@ -10,10 +10,10 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="709dp">
 
         <ImageView
-            android:id="@+id/img_product"
+            android:id="@+id/img_frontitemdesc"
             android:layout_width="0dp"
             android:layout_height="350dp"
             android:layout_marginBottom="60dp"
@@ -26,7 +26,7 @@
             tools:ignore="ContentDescription" />
 
         <TextView
-            android:id="@+id/tv_product_name"
+            android:id="@+id/tv_item_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -36,11 +36,11 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/img_product"
+            app:layout_constraintTop_toBottomOf="@+id/img_frontitemdesc"
             tools:text="Nama Pekerjaan" />
 
         <TextView
-            android:id="@+id/tv_merchant_name"
+            android:id="@+id/tv_item_shortdesc"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -48,7 +48,7 @@
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_product_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_item_name"
             tools:text="Deskripsi" />
 
 

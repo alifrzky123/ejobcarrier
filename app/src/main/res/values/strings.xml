@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">E-Pohon Karrier</string>
+
+
+    <!--Astronot-->
+
+    <string name="JudulPekerjaanAst">Astronot</string>
+    <string name="ShortDescAst">Kata “Astronot” berasal dari bahasa Yunani, yaitu astron dan nautis.(Read more)..</string>
+    <string name="GajiAst">Rp.70.000.000 – Rp.100.000.000</string>
+    <string name="PendidikanAst">S1 Sederajat</string>
+    <string name="DeskripsiAst">Kata “Astronot” berasal dari bahasa Yunani, yaitu astron dan nautis. Astron artinya bintang, sedangkan nautis artinya penjelajah. Astronot atau disebut juga dengan istilah Antariksawan. Nah, kalau dalam bahasa melayu Malaysia, Astronot disebut dengan Angkasawan. Astronot merupakan sebutan untuk orang yang sudah memenuhi pelatihan penerbangan antariksa untuk memimpin, menerbangkan, atau jadi awak pesawat antariksa.\n" +
+                        "Para astronot pergi ke luar angkasa untuk menjalankan misi tertentu. Misalnya Sally Ride dengan misi STS-7 di tahun 1983, Edwin Aldrin dengan misi Apollo 8 di tahun 1969, dan sebagainya. Astronot akan menetap di stasiun luar angkasa internasional (International Space Station) dan mengambil bagian dalam kegiatan eksperimen dan penelitian.\n" +
+                        "Syarat yang harus dipenuhi untuk menjadi astronot adalah memiliki daya tahan tubuh dan kesehatan serta mampu berbahasa Inggris. National Aeronautics and Space Administration (NASA) merupakan institusi terbesar yang menaungi pekerjaan ini. Di Jepang, Badan Eksplorasi Luar Angkasa Jepang (JAXA) melakukan rekrutmen astronot. Seseorang bisa menjadi astronot setelah melewati banyak seleksi dan latihan yang ketat.\n</string>
+    <string name="sumberwjbtahuAst">httpscdn.britannica.com</string>
+    <string name="wjbtahuAst">Dilansir dari Bobo.grid.id ternyata astronot punya sebutan yang berbeda. \n Misalnya, penjelajah antariksa dari Rusia dikenal dengan sebutan Cosmonaut atau Kosmonot. \nNah kalau di Tiongkok disebut Taikonaut. Beda lagi dengan istilah Spationaut yang merujuk pada penjelajah antariksa asal Prancis</string>
+    <string name="wjbtahu2Ast">Meski punya ribuan karyawan, ternyata di tahun 2019 hanya ada 38 astronot yang berstatus aktif. \nMerujuk data nasa.gov, para Astronot ini adalah mereka yang telah lolos rangkaian tes dan dinyatakan siap untuk terbang</string>
+    <string name="wjbtahu3Ast">Selain menjadi Astronot, untuk bisa merasakan sensasi luar angkasa kamu bisa mengikuti wisata luar angkasa \ndan menjadi space tourist, menurut suara.com setidaknya diperlukan \nbiaya paling murah Rp3,5 miliar untuk merasakan sensasi luar angkasa selama beberapa saat</string>
+    <string name="wjbtahu4Ast">Pada 28 April 2001, Dennis Tito menjadi turis luar angkasa pertama \nyang membiayai perjalanannya sendiri. Dilansir dari bbc.co.uk, miliuner asal Amerika Serikat ini \nsetidaknya merogoh kocek US$20.000.000 untuk perjalanannya selama 8 hari</string>
+    <string name="wjbtahu5Ast">Tahukah Kamu, ternyata putri orang nomor satu di Amerika Serikat, \nIvana Trump, memimpikan untuk bekerja sebagai astronot dan pergi ke ruang angkasa seperti diberitakan dalam Kompas</string>
+    <string name="wjbtahu6Ast">Persaingan untuk jadi astronot sangat ketat. Melansir Kompas, tercatat ada 18.300 orang yang melamar \nuntuk bergabung di program pelatihan astronot NASA tahun 2016. \nUntuk bisa dipertimbangkan jadi kandidat astronot NASA, selain persyaratan kewarganegaraan \ndan gelar sarjana di bidang tertentu, kamu perlu punya pengalaman profesional tambahan, \nyaitu setidaknya berpengalaman menerbangkan pesawat jet dengan 1.000 jam terbang</string>
+    <string name="wjbtahu7Ast">Setelah jadi kandidat astronot, Kamu tidak serta merta bisa langsung pergi ke luar angkasa.\n Kamu harus mengikuti serangkaian pelatihan dan ujian. Tantangan yang harus dihadapi antara lain \ntes kelangsungan hidup, menyelam, serta renang dengan berpakaian luar angkasa</string>
+    <string name="wjbtahu8Ast">Pulang dari misi luar angkasa, tubuhmu harus melakukan penyesuaian dalam waktu yang hampir sama dengan penerbangan \nagar kembali normal. Meski begitu, beberapa organ akan merespon lebih cepat. \nKamu akan dapat volume darah dan kontrol tekanan kembali dalam hitungan \nhari sampai seminggu atau lebih. Organ yang paling lama kembali normal adalah otot \ndan tulang karena paling lama menanggapi situasi tanpa bobot</string>
+    <string name="sumberimgperanAst">httpscdn.vox-cdn.com</string>
+    <string name="perandantggjwbAst">a.\tMengatur satelit untuk kebutuhan teknologi dan komunikasi seluruh negara di dunia.\n +
+                        b.\tMelakukan kegiatan yang berkaitan dengan eksplorasi ruang angkasa.\n +
+                        c.\tMengamati dan mendokumentasi lingkungan tempat tujuan di luar angkasa.\n +
+                        d.\tMengambil beberapa sampel atau benda penting dari sana, untuk dibawa kembali ke bumi kemudian dipelajari.\n +
+                        e.\tMembuat laporan mengenai semua kejadian yang terjadi di ruang angkasa.\n</string>
+    <string name="sumberpengetahuanAst">httpsi.dailymail.co.uk</string>
+    <string name="pengetahuandankeahlianAst">a.\tKemampuan observasi\n +
+                        b.\tKemampuan bertahan\n +
+                        c.\tKemampuan melakukan analisis\n +
+                        d.\tKemampuan berpikir kritis\n +
+                        e.\tKemampuan problem solving\n +
+                        f.\tKemampuan kerja tim\n +
+                        g.\tPemahaman bahasa asing\n +
+                        h.\tKeahlian menerbangkan pesawat\n</string>
+    <string name="sumberjenjangAst">httpsimage.cnbcfm.com</string>
+    <string name="jenjangAst">Dalam perjalanan karier seorang astronot, setelah melahap habis materi pelatihan umum dan khusus serta menuntaskan berbagai ujian, \nselanjutnya akan ditugaskan dalam suatu misi. Kamu akan merasakan pengalaman dalam \nperjalanan luar angkasa yang sesungguhnya, dan bisa menyebut diri sebagai astronot. \nJenjang karier seorang astronot dimulai pada tingkatan GS-12 sampai tertinggi GS-15. \nTingkatan tersebut juga akan mempengaruhi besarnya pendapatan seorang astronot</string>
+    <string name="sumberjurusanAst">httpswww.thoughtco.com</string>
+    <string name="jurusanAst">Jika kamu ingin berkarier pada profesi ini, \nmaka ilmu yang harus kamu kuasai adalah: Matematika, Ilmu Komputer, \nFisika, Ilmu Teknik, dan Biologi</string>
 </resources>
