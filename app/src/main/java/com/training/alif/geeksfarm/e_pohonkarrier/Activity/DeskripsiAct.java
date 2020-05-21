@@ -64,7 +64,7 @@ public class DeskripsiAct extends AppCompatActivity {
             String wajibtahu5 = listPekerjaan.getWajibtahu5();
             String wajibtahu6 = listPekerjaan.getWajibtahu6();
             String wajibtahu7 = listPekerjaan.getWajibtahu7();
-            String wajibtahu8 = listPekerjaan.getWajibtahu9();
+            String wajibtahu8 = listPekerjaan.getWajibtahu8();
             String wajibtahu9 = listPekerjaan.getWajibtahu9();
             String wajibtahu10 = listPekerjaan.getWajibtahuX();
             iv_deskPekerjaan.setImageResource(listPekerjaan.getImageDescCard());
@@ -90,48 +90,126 @@ public class DeskripsiAct extends AppCompatActivity {
             tvSumberDesk5.setText(listPekerjaan.getSumberJenjang());
 
 
-            if (wajibtahu == ""){
-                tvwajibTahu.setVisibility(View.GONE);
-            }if (wajibtahu2 == ""){
-                tvwajibTahu2.setVisibility(View.GONE);
-            }if (wajibtahu3 == ""){
-                tvwajibTahu3.setVisibility(View.GONE);
-            }if (wajibtahu4 == ""){
-                tvwajibTahu4.setVisibility(View.GONE);
-            }if (wajibtahu5 == ""){
-                tvwajibTahu5.setVisibility(View.GONE);
-            }if (wajibtahu6 == ""){
-                tvwajibTahu6.setVisibility(View.GONE);
-            }if (wajibtahu7 == ""){
-                tvwajibTahu7.setVisibility(View.GONE);
-            }if (wajibtahu8 == ""){
-                tvwajibTahu8.setVisibility(View.GONE);
-            }if (wajibtahu9 == ""){
-                tvwajibTahu9.setVisibility(View.GONE);
-            }if (wajibtahu10 == "") {
-                tvwajibTahu.setVisibility(View.GONE);
-            }if(wajibtahu != ""){
+            if (wajibtahu != "") {
                 tvwajibTahu.setText(wajibtahu);
-            }if(wajibtahu2 != ""){
+                tvwajibTahu.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu2 != "") {
                 tvwajibTahu2.setText(wajibtahu2);
-            }if(wajibtahu3 != ""){
+                tvwajibTahu2.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu3 != "") {
                 tvwajibTahu3.setText(wajibtahu3);
-            }if(wajibtahu4 != ""){
+                tvwajibTahu3.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu4 != "") {
                 tvwajibTahu4.setText(wajibtahu4);
-            }if(wajibtahu5 != ""){
+                tvwajibTahu4.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu5 != "") {
                 tvwajibTahu5.setText(wajibtahu5);
-            }if(wajibtahu6 != ""){
+                tvwajibTahu5.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu6 != "") {
                 tvwajibTahu6.setText(wajibtahu6);
-            }if(wajibtahu7 != ""){
+                tvwajibTahu6.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu7 != "") {
                 tvwajibTahu7.setText(wajibtahu7);
-            }if(wajibtahu8 != ""){
+                tvwajibTahu7.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu8 != "") {
                 tvwajibTahu8.setText(wajibtahu8);
-            }if(wajibtahu9 != ""){
+                tvwajibTahu8.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu9 != "") {
                 tvwajibTahu9.setText(wajibtahu9);
-            }if(wajibtahu10 != ""){
+                tvwajibTahu9.setVisibility(View.VISIBLE);
+
+            }if (wajibtahu10 != "") {
                 tvwajibTahu10.setText(wajibtahu10);
+                tvwajibTahu10.setVisibility(View.VISIBLE);
+
+            }
+            if (wajibtahu == "") {
+                tvwajibTahu.setVisibility(View.INVISIBLE);
+            }
+            if (wajibtahu2 == "") {
+                tvwajibTahu2.setVisibility(View.GONE);
+
+            }if (wajibtahu3.equals("")) {
+                tvwajibTahu3.setVisibility(View.GONE);
+
+            }if (wajibtahu4.equals("")) {
+                tvwajibTahu4.setVisibility(View.GONE);
+
+            }if (wajibtahu5.equals("") ) {
+                tvwajibTahu5.setVisibility(View.GONE);
+
+            }if (wajibtahu6.equals("") ) {
+                tvwajibTahu6.setVisibility(View.GONE);
+
+            }if (wajibtahu7.equals("") ) {
+                tvwajibTahu7.setVisibility(View.GONE);
+
+            }if (wajibtahu8.equals("") ) {
+                tvwajibTahu8.setVisibility(View.GONE);
+
+            }if (wajibtahu9.equals("") ) {
+                tvwajibTahu9.setVisibility(View.GONE);
+
+            }if (wajibtahu10.equals("") ) {
+                tvwajibTahu10.setVisibility(View.GONE);
+
             }
 
+//            if (wajibtahu == "" || wajibtahu2 == "" || wajibtahu3 == ""||wajibtahu4 == "" ||wajibtahu5 == "" || wajibtahu6 == ""|| wajibtahu7 == ""|| wajibtahu8 == ""|| wajibtahu9 == ""|| wajibtahu10 == ""){
+//                tvwajibTahu.setVisibility(View.INVISIBLE);
+//
+//                tvwajibTahu2.setVisibility(View.GONE);
+//
+//                tvwajibTahu3.setVisibility(View.GONE);
+//
+//                tvwajibTahu4.setVisibility(View.GONE);
+//
+//                tvwajibTahu5.setVisibility(View.GONE);
+//
+//                tvwajibTahu6.setVisibility(View.GONE);
+//
+//                tvwajibTahu7.setVisibility(View.GONE);
+//
+//                tvwajibTahu8.setVisibility(View.GONE);
+//
+//                tvwajibTahu9.setVisibility(View.GONE);
+//
+//                tvwajibTahu10.setVisibility(View.GONE);
+//
+//            }
+//              if
+//                  (wajibtahu != "" || wajibtahu2 != ""|| wajibtahu3 != ""|| wajibtahu4 != ""|| wajibtahu5 != ""|| wajibtahu6 != ""|| wajibtahu7 != ""|| wajibtahu8 != ""||wajibtahu9 != "" || wajibtahu10 != "")
+//        {
+//                tvwajibTahu.setText(wajibtahu);
+//
+//                tvwajibTahu2.setText(wajibtahu2);
+//
+//                tvwajibTahu3.setText(wajibtahu3);
+//
+//                tvwajibTahu4.setText(wajibtahu4);
+//
+//                tvwajibTahu5.setText(wajibtahu5);
+//
+//                tvwajibTahu6.setText(wajibtahu6);
+//
+//                tvwajibTahu7.setText(wajibtahu7);
+//
+//                tvwajibTahu8.setText(wajibtahu8);
+//
+//                tvwajibTahu9.setText(wajibtahu9);
+//
+//                tvwajibTahu10.setText(wajibtahu10);
+//
+//            }
+//
         }
     }
 

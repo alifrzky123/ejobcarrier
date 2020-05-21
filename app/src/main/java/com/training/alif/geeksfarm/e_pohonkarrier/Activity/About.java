@@ -26,20 +26,24 @@ public class About extends AppCompatActivity {
                     case R.id.nav_kontak:
                         startActivity(new Intent(getApplicationContext(), Contact.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                     case R.id.nav_profil:
                         startActivity(new Intent(getApplicationContext(), Profile.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                     case R.id.nav_about:
                         return true;
                     case R.id.nav_dafpeker:
                         startActivity(new Intent(getApplicationContext(), list_pekerjaan.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                     case R.id.nav_home:
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                 }
                 return false;

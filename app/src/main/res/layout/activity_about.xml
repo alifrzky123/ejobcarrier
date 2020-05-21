@@ -7,13 +7,20 @@
     tools:context=".Activity.MainActivity"
     android:background="@drawable/ttg_appsss">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tentang"
-        android:textSize="50sp"
-        android:layout_centerInParent="true"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/bahnschrift_1"
+        android:text="@string/ttg_app"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navbarabout"
         android:layout_width="match_parent"
@@ -25,4 +32,6 @@
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_nav" />
+
+
 </RelativeLayout>

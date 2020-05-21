@@ -30,20 +30,24 @@ public class Profile extends AppCompatActivity {
                     case R.id.nav_kontak:
                         startActivity(new Intent(getApplicationContext(), Contact.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                     case R.id.nav_profil:
                         return true;
                     case R.id.nav_about:
                         startActivity(new Intent(getApplicationContext(), About.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                     case R.id.nav_dafpeker:
                         startActivity(new Intent(getApplicationContext(), list_pekerjaan.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                     case R.id.nav_home:
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         overridePendingTransition(0,0);
+                        finish();
                         return true;
                 }
                 return false;

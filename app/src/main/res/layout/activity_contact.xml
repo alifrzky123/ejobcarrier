@@ -8,6 +8,45 @@
     android:background="@drawable/kontak_bg">
 
 
+    <TextView
+        android:id="@+id/tv_ig"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/bottom_navbarcont"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="240dp"
+        android:text="ig" />
+
+    <TextView
+        android:id="@+id/tv_fb"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/bottom_navbarcont"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginBottom="242dp"
+        android:text="fb" />
+
+    <TextView
+        android:id="@+id/tv_gmail"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/bottom_navbarcont"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginBottom="86dp"
+        android:text="gmail" />
+
+    <TextView
+        android:id="@+id/tv_twt"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/bottom_navbarcont"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginBottom="125dp"
+        android:text="ig" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navbarcont"
