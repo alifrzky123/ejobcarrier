@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.training.alif.geeksfarm.e_pohonkarrier.PetunjukAct;
 import com.training.alif.geeksfarm.e_pohonkarrier.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +21,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Initialize();
         bottomNavBar();
+
+        btnPet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), PetunjukAct.class));
+                finish();
+            }
+        });
 
         btnPlan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +44,13 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-
+        btnSumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), SumberAct.class));
+                finish();
+            }
+        });
     }
 
     private void Initialize(){
